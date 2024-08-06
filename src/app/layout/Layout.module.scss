@@ -1,0 +1,14 @@
+@import "./../shared/utils/variables.scss";
+
+.layout {
+  text-align: center;
+  height: 98vh;
+  .main {
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+  }
+}

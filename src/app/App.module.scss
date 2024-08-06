@@ -1,0 +1,22 @@
+@import "./shared/utils/variables.scss";
+
+* {
+  font-family: $font-family;
+  color: $text-color;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html,
+body,
+#root {
+  background-color: $bg-color;
+  height: 100%;
+  box-sizing: border-box;
+  a {
+    text-decoration: none;
+  }
+}

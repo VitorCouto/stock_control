@@ -1,0 +1,31 @@
+@import "./../../utils/variables.scss";
+
+.formGroup {
+  margin-bottom: 1rem;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 0 10px;
+    font-weight: 700;
+  }
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 330px;
+  }
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: $text-placeholder;
+  }
+}

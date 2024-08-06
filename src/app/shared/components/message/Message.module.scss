@@ -1,0 +1,35 @@
+@import "./../../utils/variables.scss";
+
+.info,
+.success,
+.warning,
+.error,
+.validation {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 8px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.info {
+  color: $text-color-info;
+  background-color: $bg-color-info;
+}
+
+.success {
+  color: $text-color-success;
+  background-color: $bg-color-success;
+}
+
+.warning {
+  color: $text-color-warning;
+  background-color: $bg-color-warning;
+}
+
+.error {
+  color: $text-color-error;
+  background-color: $bg-color-error;
+}

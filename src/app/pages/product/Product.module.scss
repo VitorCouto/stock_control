@@ -1,0 +1,80 @@
+@import "./../../shared/utils/variables.scss";
+
+.product {
+  margin: 2em auto;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1200px;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: $box-shadow;
+    border-radius: 16px;
+    th,
+    td {
+      color: $text-color;
+      border: 1px solid $border-color;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      color: $text-color-white;
+      background-color: $bg-color-dark;
+    }
+    tr:hover {
+      background-color: $bg-color-secondary;
+    }
+    td:first-child {
+      width: 100px;
+    }
+    td:last-child {
+      width: 200px;
+    }
+    td button {
+      padding: 5px 8px;
+      margin: 0px 5px;
+      cursor: pointer;
+      &:hover {
+        color: $text-color-hover;
+        background: $bg-color-dark;
+      }
+    }
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    li {
+      margin: 0 5px;
+    }
+    a {
+      border: 1px solid $border-color;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    a:hover {
+      color: $text-color-hover;
+      background: $bg-color-dark;
+    }
+  }
+
+  .active a {
+    color: $text-color-hover;
+    background-color: $bg-color-dark;
+    border: 1px solid $bg-color-dark;
+  }
+
+  .active:hover {
+    color: $text-color-hover;
+    background: $bg-color-dark;
+  }
+}

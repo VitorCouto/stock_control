@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "name": "Usuário",
+      "email": "admin@admin.com",
+      "password": "admin"
+    }
+  ],
+  "products": [],
+  "category": []
+}
