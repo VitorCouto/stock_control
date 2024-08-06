@@ -68,7 +68,7 @@ A aplicação utiliza o JSON Server para simular um backend. Para configurar o J
         "category": []
     }
 
-Este arquivo contém um usuário padrão com nome de usuário `admin` e senha `admin`. Caso queira alterar ou adicionar novos usuários basta adicionar no JSON conforme o modelo.
+Este arquivo contém um usuário padrão com nome de usuário `admin@admin.com` e senha `admin`. Caso queira alterar ou adicionar novos usuários basta adicionar no JSON conforme o modelo.
 
 ## Estrutura de Pastas
 
